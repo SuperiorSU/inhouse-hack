@@ -35,7 +35,7 @@ const Form = () => {
   console.log(form);
   const members = numberofmembers(parseInt(form.members) - 1 , changeHandler);
   return (
-    <div className="flex justify-center items-center mb-10">
+    <div className="flex z-20 justify-center items-center mb-10">
       <div className=" bg-white/5 backdrop-blur-md py-5 h-[max-content] w-[60%] rounded-md right-0 px-5 border-2 border-gray-600">
         <form>
           <input

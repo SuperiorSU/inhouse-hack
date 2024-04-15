@@ -6,7 +6,7 @@ import logo from "../assets/tu-white.png";
 const Footer = () => {
   return (
     // lol
-    <div className="ps-4 pe-4 pt-">
+    <div className="ps-4 pe-4 z-20 pt-">
       <footer className=" pt-5 px-2 4 border-t-[1px]  border-gray-600">
         <div className=" grid lg:grid-cols-6 md:grid-cols-6 sm:grid-cols-4 grid-cols-12 py-5 gap-y-4 gap-x-4   ">
           <div className="lg:col-span-2 md:col-span-2 sm:col-span-4 col-span-12">
