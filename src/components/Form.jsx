@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 
-const numberofmembers = (members) => {
+const numberofmembers = (members , changeHandler) => {
   let arr = [];
   for (let i = 0; i < members; i++) {
     arr.push(
       <input
         type="text"
         name={`member${i + 1}`}
+        onChange={changeHandler}
         placeholder={`Member ${i + 1} Name*`}
         className="block w-full text-white p-2 mb-4 bg-transparent border-b-2 border-gray-600 focus:outline-none focus:border-blue-500"
         required
@@ -24,12 +25,15 @@ const Form = () => {
     email: "",
     teamlead: "",
     members: "2",
+    members1: "",
+    members2: "",
+    members3: "",
   });
   const changeHandler = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
-
-  const members = numberofmembers(parseInt(form.members) - 1);
+  console.log(form);
+  const members = numberofmembers(parseInt(form.members) - 1 , changeHandler);
   return (
     <div className="flex justify-center items-center mb-10 py-7 gap-5 bg-gradient-to-b from-[#231451] to-[#04081a]">
       <div className="">
