@@ -1,5 +1,7 @@
 import React from 'react'
 import collab from '../assets/collab.png'
+import think from '../assets/thinl.png'
+import create from '../assets/create.png'
 const WhyPart = () => {
   return (
     <div className='relative bg-gradient-to-b from-[#04081a] via-[#231451] to-[#04081a] p-5'>
@@ -11,7 +13,7 @@ const WhyPart = () => {
                 <p className='text-gray-500 text-[15px]'>Build your own projects and learn from theme. Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
             </div>
             <div className='w-80 rounded-md border-2 border-[#564f92] p-3 bg-[#070a22]'>
-                <h3 className='text-2xl text-white pb-2'>Think</h3>
+                <h3 className='text-2xl text-white pb-2 text'>Think</h3>
                 <p className='text-gray-500 text-[15px]'>Build your own projects and learn from theme. Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
             </div>
             <div className='w-80 rounded-md border-2 border-[#564f92] p-3 bg-[#070a22]'>
@@ -19,11 +21,11 @@ const WhyPart = () => {
                 <p className='text-gray-500 text-[15px]'>Build your own projects and learn from theme. Lorem, ipsum dolor sit amet consectetur adipisicing ]</p>
             </div>
         </div>
-        <div className='grid grid-cols-2 py-7'>
-            <div className='col-span-1'>
-                <img src={collab} className='object-contain items-center' alt=""/>
+        <div className='grid grid-cols-2 py-7 gap-5'>
+            <div className='col-span-2 lg:col-span-1 md:col-span-2 sm:col-span-2'>
+                <img src={collab} className='object-contain w-96 mx-auto items-center' alt=""/>
             </div>
-            <div className='col-span-1 p-5 relative z-[2] my-auto'>
+            <div className='col-span-2 lg:col-span-1 md:col-span-2 sm:col-span-2 p-5 relative z-[2] my-auto'>
                 <h3 className='text-4xl text-white pb-2 ps-3 font-semibold uppercase'>Collaborate</h3>
                 <br></br>
                 <p className='text-gray-500 text-[15px] ps-3'>Build your own projects and learn from theme. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -34,7 +36,7 @@ const WhyPart = () => {
         </div>
         <div className='grid grid-cols-2 py-7'>
            
-            <div className='col-span-1 p-5 relative z-[2] my-auto'>
+            <div className='col-span-2 lg:col-span-1 md:col-span-2 sm:col-span-2 p-5 relative z-[2] my-auto'>
                 <h3 className='text-4xl text-white pb-2 ps-3 font-semibold uppercase'>Think</h3>
                 <br></br>
                 <p className='text-gray-500 text-[15px] ps-3'>Build your own projects and learn from theme. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -43,8 +45,23 @@ const WhyPart = () => {
                 </div>
             </div>
             <div className='col-span-1'>
-                <img src={collab} className='object-contain items-center' alt=""/>
+                <img src={think} className='object-contain w-96 mx-auto items-center' alt=""/>
             </div>
+        </div>
+        <div className='grid grid-cols-2 py-7'>
+            <div className='col-span-2 lg:col-span-1 md:col-span-2 sm:col-span-2'>
+                <img src={create} className='object-contain w-96 mx-auto items-center' alt=""/>
+            </div>
+           
+            <div className='col-span-2 lg:col-span-1 md:col-span-2 sm:col-span-2 p-5 relative z-[2] my-auto'>
+                <h3 className='text-4xl text-white pb-2 ps-3 font-semibold uppercase'>Think</h3>
+                <br></br>
+                <p className='text-gray-500 text-[15px] ps-3'>Build your own projects and learn from theme. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div className='absolute -top-6 text-9xl font-bold text-white/10'>
+                    02
+                </div>
+            </div>
+            
         </div>
     </div>
   )
