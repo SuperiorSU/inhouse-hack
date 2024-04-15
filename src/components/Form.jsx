@@ -31,8 +31,11 @@ const Form = () => {
 
   const members = numberofmembers(parseInt(form.members) - 1);
   return (
-    <div className="flex justify-center items-center mb-10">
-      <div className=" bg-white/5 backdrop-blur-md py-5 h-[max-content] w-[60%] rounded-md right-0 px-5 border-2 border-gray-600">
+    <div className="flex justify-center items-center mb-10 py-7 gap-5 bg-gradient-to-b from-[#231451] to-[#04081a]">
+      <div className="">
+        <h2 className="text-6xl text-gray-400 font-bold p-3">Still Not<br/>Registered?</h2>
+      </div>
+      <div className=" bg-white/5 backdrop-blur-md py-5 h-[max-content] w-[50%] rounded-md right-0 px-5 border-2 border-gray-600">
         <form>
           <input
             type="text"
