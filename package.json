@@ -7,11 +7,7 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-<<<<<<< HEAD
     "axios": "^1.6.8",
-=======
-    "aos": "^3.0.0-beta.6",
->>>>>>> f99341a25f242c427c9fb55e194ab7deaaddeb62
     "express": "^4.19.2",
     "fontawesome": "^5.6.3",
     "postcss": "^8.4.38",
