@@ -11,10 +11,14 @@ function App() {
       <NavBar/>
       <Hero/>
       <WhyPart/>
+<<<<<<< HEAD
+      <Form/>
+=======
       <About/>
 
       <Form/>
 
+>>>>>>> a0383de7ad67e336ce940c137ad54c7aba048a3f
       <Footer/>
     </div>
   );
