@@ -11,11 +11,7 @@ function App() {
       <NavBar/>
       <Hero/>
       <WhyPart/>
-<<<<<<< HEAD
       <Form/>
-=======
-      <Form />
->>>>>>> c9b5e57099f145579c76300365f0ff47914ccd98
       <Footer/>
     </div>
   );
