@@ -1,5 +1,5 @@
 import React from "react";
-import "./about.css"; // Assuming you have the CSS file imported
+import "./about.css"; 
 
 const GlowingCard = () => {
   return (
