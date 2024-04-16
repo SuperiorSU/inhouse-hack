@@ -10,15 +10,9 @@ function App() {
     <div className="bg-[#04081a]">
       <NavBar/>
       <Hero/>
-      <WhyPart/>
-<<<<<<< HEAD
-      <Form/>
-=======
       <About/>
-
+      <WhyPart/>
       <Form/>
-
->>>>>>> a0383de7ad67e336ce940c137ad54c7aba048a3f
       <Footer/>
     </div>
   );

@@ -39,9 +39,9 @@ const NavBar = () => {
                 </div>
             </div>
         </nav>
-        <div className='flex gap-x-1 justify-center items-center'>
+        <div className='flex gap-x-1 justify-center items-center' >
             
-            <div className='bg-[#0d132e] p-1 border-[.5px] border-gray-800 rounded-lg lg:block md:block hidden sm:hidden'>
+            <div className='bg-[#0d132e] p-1 border-[.5px] border-gray-800 rounded-lg lg:block md:block hidden sm:hidden '>
                 <p className='text-gray-400 text-center'><span className='text-white text-sm font-medium'>Announcing our new event </span>- The in-House Hackathon for The Uniques 2.0 & The Uniques 3.0 </p>
             </div>
             <div className='bg-blue-500 rounded-full w-[30px] h-[30px] lg:block md:block hidden sm:hidden'>
