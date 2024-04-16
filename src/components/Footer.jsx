@@ -24,9 +24,9 @@ const Footer = () => {
             </div>
           </div>
           <div className="col-span-12 lg:col-span-1 md:col-span-2 sm:col-san-2">
-            <h3 className="text-white text-[17px] font-medium pt-1 pb-4">Platform</h3>
+            <h3 className="text-white text-[17px] font-medium pt-1 pb-4">Contact</h3>
             <ul className="text-gray-400 gap-y-2 leading-9 ">
-              <li className="hover:text-white duration-150">Overview</li>
+              <li className="hover:text-white duration-150">Co-ordinator</li>
               <li className="hover:text-white duration-150">Rules & Regulation</li>
               <li className="hover:text-white duration-150">Updates</li>
               <li className="hover:text-white duration-150">Theme</li>

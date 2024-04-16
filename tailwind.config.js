@@ -4,6 +4,8 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [  require('@codaworks/react-glow/tailwind')],
+  plugins: [  
+    require('@codaworks/react-glow/tailwind')
+  ],
 }
 

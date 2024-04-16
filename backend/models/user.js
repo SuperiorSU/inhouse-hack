@@ -5,32 +5,37 @@ const UserSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
-    admissionNo: {
+    admission: {
         type: String,
         required: true,
     },
     batch:{
         type:String,
-        enum:['uniques2.0', 'uniques3.0'],
         required:true
     },
     email: {
         type: String,
         required: true,
     },
-    leader:{
+    teamlead:{
         type:String,
         required:true
     },
-    teamMember1:{
+    members:{
+        type:String,
+        required:true
+    
+    },
+    member1:{
+        type:String,
+        required:true
+        
+    },
+    member2:{
         type:String,
         
     },
-    teamMember2:{
-        type:String,
-        
-    },
-    teamMember3:{
+    member3:{
         type:String,
         
     },

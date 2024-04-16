@@ -1,24 +1,29 @@
 const express = require('express');
 const router = express.Router();
-
+const User = require('../models/user');
 // adding user to database
 router.post('/addUser', async (req, res) => {
-    const { name, admissionNo, batch, email, leader, teamMember1, teamMember2, teamMember3 } = req.body;
+    const { name, admission, batch, email, teamlead,members, member1, member2, member3 } = req.body;
     try {
         const user = new User({
             name,
-            admissionNo,
+            admission,
             batch,
             email,
-            leader,
-            teamMember1,
-            teamMember2,
-            teamMember3,
+            teamlead,
+            members,
+            member1,
+            member2,
+            member3,
         });
         await user.save();
-        res.status(200).json({ message: 'User added successfully' });
+        res.status(200).json({ 
+            success:"true",
+            message: 'User added successfully' });
     } catch (error) {
-        res.status(500).json({ message: 'Server Error' });
+        res.status(500).json({
+            success:"false",
+            message: 'Server Error' });
     }
 });
 

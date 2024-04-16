@@ -17,12 +17,12 @@ const NavBar = () => {
                     <div className='logo text-white font-medium'>
                         <SiTryhackme
                             size={30}
-                            className='text-white inline-block me-1 ' />
+                            className='text-white inline-block me-1' />
                         <span className='text-[18px]'>Hack-A-Thon</span></div>
                     <div>
                         <ul className='hidden gap-x-7 justify-around items-center lg:flex md:flex sm:hidden'>
-                            <li className='text-gray-400 hover:text-white duration-150'>Home</li>
-                            <li className='text-gray-400 hover:text-white duration-150'>About</li>
+                            <li className='text-gray-400 hover:text-white duration-150'><a href="#">Home</a></li>
+                            <li className='text-gray-400 hover:text-white duration-150'><a href="#about">About</a></li>
                             <li className='text-gray-400 hover:text-white duration-150'>Contact</li>
                             <li className='text-gray-400 hover:text-white duration-150'>Theme</li>    
                         </ul>
@@ -31,7 +31,10 @@ const NavBar = () => {
                 </div>
             </div>
             <div className='flex items-center gap-x-4'>
-                <button className='text-gray-400 hover:text-white duration-150 lg:block md:block hidden sm:hidden border-t-[1px] border-white/30 px-4 py-1 bg-[#0b112a] rounded-full'>Register</button>
+                <a href = "#form">
+                   <button className='text-gray-400 hover:text-white duration-150 lg:block md:block hidden sm:hidden border-t-[1px] border-white/30 px-4 py-1 bg-[#0b112a] rounded-full'>Register</button> 
+                </a>
+                
                 <div>
                         {!isClicked&&<GiHamburgerMenu size={24} className='text-white lg:hidden md:hidden sm:block' onClick={handleClick}/>}
 
