@@ -35,11 +35,15 @@ const Form = () => {
   console.log(form);
   const members = numberofmembers(parseInt(form.members) - 1 , changeHandler);
   return (
+<<<<<<< HEAD
     <div className="flex justify-center flex-wrap items-center mb-10 py-7 gap-5 bg-gradient-to-b from-[#04081add] to-[#04081a]">
+=======
+    <div className="sm:flex justify-center items-center mb-10 py-7 gap-5 bg-gradient-to-b from-[#231451] to-[#04081a] overflow-hidden">
+>>>>>>> a0383de7ad67e336ce940c137ad54c7aba048a3f
       <div className="">
         <h2 className="lg:text-6xl md:text-6xl font-serif sm:text-6xl text-4xl font-bold text-gray-400 p-3">Still Not<br/>Registered?</h2>
       </div>
-      <div className=" bg-white/5 backdrop-blur-md py-5 h-[max-content] w-[50%] rounded-md right-0 px-5 border-2 border-gray-600">
+      <div className=" bg-white/5 backdrop-blur-md my-5 py-5 sm:py-0 sm:my-0 h-[max-content] w-[100%] sm:w-[50%] rounded-md right-0 px-5 border-2 border-gray-600">
         <form>
           <input
             type="text"

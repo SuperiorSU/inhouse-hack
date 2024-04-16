@@ -18,7 +18,7 @@ return (
             </div>
             <div className='w-80 rounded-md border-2 border-[#564f92] p-3 bg-[#070a22]'>
                 <h3 className='text-2xl text-white pb-2'>Create</h3>
-                <p className='text-gray-500 text-[15px]'>Build your own projects and learn from theme. Lorem, ipsum dolor sit amet consectetur adipisicing ]</p>
+                <p className='text-gray-500 text-[15px]'>Build your own projects and learn from theme. Lorem, ipsum dolor sit amet consectetur adipisicing </p>
             </div>
         </div>
         <div className='grid grid-cols-2 py-7 gap-5'>
