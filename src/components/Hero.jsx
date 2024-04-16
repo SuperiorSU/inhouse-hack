@@ -31,7 +31,7 @@ const Hero = () => {
             <br/><br/><br/>
             <div className='lg:w-[80%] md:w-[70%] sm:w-[80%] w-[80%] mx-auto'>
                 <img src={hero} className='rounded-md object-cover shadow-gray-500 shadow-md' alt="" data-aos="fade-up"
-    data-aos-offset="150"
+    data-aos-offset="50 "
     data-aos-delay="50"
     data-aos-duration="1000"
     data-aos-easing="ease-in-out"
