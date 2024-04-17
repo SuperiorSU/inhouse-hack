@@ -10,7 +10,7 @@ const NavBar = () => {
         setIsClicked(!isClicked);
     }
   return (
-    <div>
+    <div className='scroll-smooth'>
         <nav className='flex justify-between py-5 items-center ps-7 pe-7'>
             <div>
                 <div className='flex gap-x-9 justify-around items-center'>
@@ -23,7 +23,7 @@ const NavBar = () => {
                         <ul className='hidden gap-x-7 justify-around items-center lg:flex md:flex sm:hidden'>
                             <li className='text-gray-400 hover:text-white duration-150'><a href="#">Home</a></li>
                             <li className='text-gray-400 hover:text-white duration-150'><a href="#about">About</a></li>
-                            <li className='text-gray-400 hover:text-white duration-150'>Contact</li>
+                            <li className='text-gray-400 hover:text-white duration-150'><a href="#contact">Contact</a></li>
                             <li className='text-gray-400 hover:text-white duration-150'>Theme</li>    
                         </ul>
                     </div>
