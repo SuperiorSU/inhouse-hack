@@ -6,7 +6,7 @@ import create from "../assets/create.png";
 const WhyPart = () => {
   return (
     <div id="why" className="relative bg-gradient-to-b from-[#04081a] via-[#231451] to-[#04081a] p-7 overflow-hidden">
-      <h2 className="lg:text-6xl md:text-6xl font-serif sm:text-6xl text-4xl font-bold bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 text-transparent bg-clip-text text-center py-3 uppercase">
+      <h2 className="lg:text-6xl md:text-6xl font-serif sm:text-6xl text-4xl font-bold bg-gradient-to-r from-blue-600 via-[#ca0019] to-indigo-400 text-transparent bg-clip-text text-center py-3 uppercase">
         Why Participate
       </h2>
       <p className="text-gray-400 text-center p-1">Learn through Experience</p>

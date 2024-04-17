@@ -67,7 +67,7 @@ const GlowingCard = () => {
           className="container w-[20rem] h-[22rem] sm:w-[35rem] sm:h-[28rem]"
           data-aos="fade-left"
           data-aos-delay="300"
-          data-aos-duration="800"
+          data-aos-duration="500"
           data-aos-easing="ease-in-out"
           data-aos-mirror="true"
           data-aos-offset="10"
