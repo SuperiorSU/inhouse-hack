@@ -52,16 +52,11 @@ function Form() {
     
   const members = numberofmembers(parseInt(form.members) - 1 , changeHandler);
   return (
-<<<<<<< HEAD:src/components/Form.jsx
-    <div className="flex z-20 justify-center items-center mb-10">
-      <div className=" bg-white/5 backdrop-blur-md py-5 h-[max-content] w-[60%] rounded-md right-0 px-5 border-2 border-gray-600">
-=======
     <div id="form" className="flex justify-center flex-wrap items-center mb-10 py-10 gap-5 bg-gradient-to-b from-[#04081add] to-[#04081a] px-3">
       <div className="">
         <h2 className="lg:text-6xl md:text-6xl font-serif sm:text-6xl text-4xl font-bold text-gray-400 p-3">Still Not<br/>Registered?</h2>
       </div>
       <div className=" bg-white/5 backdrop-blur-md my-5 py-5 sm:py-0 sm:my-0 h-[max-content] w-[100%] sm:w-[50%] rounded-md right-0 px-5 border-2 border-gray-600">
->>>>>>> 3e0a17bd147837cccab04fd8f411728b430d3bfd:client/src/components/Form.jsx
         <form>
           <input
             type="text"

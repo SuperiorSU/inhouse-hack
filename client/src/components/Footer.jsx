@@ -28,7 +28,7 @@ const Footer = () => {
             <ul className="text-gray-400 gap-y-2 leading-9 ">
               <li className="hover:text-white duration-150"><a href="https://www.linkedin.com/in/vaishnavi-bajpai-908726260/" target="_blank">Co-Ordinator</a></li>
               <li className="hover:text-white duration-150"><a  href="#about">Rules & regulation</a></li>
-              <li className="hover:text-white duration-150"><a href="https://www.instagram.com/theuniquesofficial/">Updates</a></li>
+              <li className="hover:text-white duration-150"><a href="https://www.instagram.com/theuniquesofficial/" target="_blank">Updates</a></li>
               <li className="hover:text-white duration-150"><a href="#theme">Theme</a></li>
             </ul>
 

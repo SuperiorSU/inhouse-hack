@@ -13,14 +13,8 @@ function App() {
       <Hero/>
       <About/>
       <WhyPart/>
-<<<<<<< HEAD:src/App.js
-     <div className="bg-gradient-to-b absolute filter z-0 blur-[100px] rounded-full left-[40%] w-[600px] h-[600px] from-[#04081a] via-[#231451] to-[#04081a]  ">
-     </div>
-     <Form />
-=======
       <Theme/>
       <Form/>
->>>>>>> 3e0a17bd147837cccab04fd8f411728b430d3bfd:client/src/App.js
       <Footer/>
     </div>
   );
