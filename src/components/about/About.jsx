@@ -3,16 +3,9 @@ import "./about.css";
 
 const GlowingCard = () => {
   return (
-<<<<<<< HEAD
     <section id="about" className="my-5 py-5 overflow-hidden">
       <div className="flex flex-col items-center ">
-        <h2 className=" lg:text-6xl md:text-6xl font-serif sm:text-6xl text-5xl font-bold bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 text-transparent bg-clip-text text-center py-3 uppercase">
-=======
-    <section className="my-5 py-5 overflow-hidden">
-      <div className="flex flex-col items-center "   >
-        <h2 className=" lg:text-6xl md:text-6xl font-serif sm:text-6xl text-5xl font-bold bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 text-transparent bg-clip-text text-center py-3 uppercase" 
-   >
->>>>>>> f99341a25f242c427c9fb55e194ab7deaaddeb62
+        <h2 className=" lg:text-6xl md:text-6xl font-serif sm:text-6xl text-5xl font-bold bg-gradient-to-r from-blue-600 via-[#ca0019] to-indigo-400 text-transparent bg-clip-text text-center py-3 uppercase">
           About Our Event
         </h2>
         <p className="text-gray-400 text-center p-1 w-[80%]">

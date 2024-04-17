@@ -5,7 +5,7 @@ import create from '../assets/create.png'
 const WhyPart = () => {
 return (
     <div className='relative bg-gradient-to-b from-[#04081a] via-[#231451] to-[#04081a] p-7'>
-        <h2 className='lg:text-6xl md:text-6xl font-serif sm:text-6xl text-4xl font-bold bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 text-transparent bg-clip-text text-center py-3 uppercase'>Why Paricipate</h2>
+        <h2 className='lg:text-6xl md:text-6xl font-serif sm:text-6xl text-4xl font-bold bg-gradient-to-r from-blue-600 via-[#ca0019] to-indigo-400 text-transparent bg-clip-text text-center py-3 uppercase'>Why Paricipate</h2>
         <p className='text-gray-400 text-center p-1'>Learn through Experience</p>
         <div className='flex flex-wrap justify-center gap-4 items-center my-5'>
             <div className='w-80 rounded-md border-2 border-[#564f92] p-3 bg-[#070a22]'>
