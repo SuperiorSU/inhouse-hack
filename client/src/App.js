@@ -8,7 +8,7 @@ import About from "./components/about/About";
 
 function App() {
   return (
-    <div className="bg-[#04081a] scroll-smooth">
+    <div className="bg-[#04081a] scroll-smooth overflow-hidden">
       <NavBar/>
       <Hero/>
       <About/>
