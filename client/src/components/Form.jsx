@@ -89,6 +89,9 @@ function Form() {
             <option className="bg-black/85 py-3" value="uniques 3.0">
               uniques 3.0
             </option>
+            <option className="bg-black/85 py-3" value="uniques 3.0">
+              Super60
+            </option>
           </select>
           <input
             type="email"
