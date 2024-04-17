@@ -21,17 +21,18 @@ const NavBar = () => {
                         <span className='text-[18px]'>Hack-A-Thon</span></div>
                     <div>
                         <ul className='hidden gap-x-7 justify-around items-center lg:flex md:flex sm:hidden'>
-                            <li className='text-gray-400 hover:text-white duration-150'><a href="#">Home</a></li>
-                            <li className='text-gray-400 hover:text-white duration-150'><a href="#about">About</a></li>
-                            <li className='text-gray-400 hover:text-white duration-150'><a href="#contact">Contact</a></li>
-                            <li className='text-gray-400 hover:text-white duration-150'>Theme</li>    
+                        <li className='text-gray-400 hover:text-white duration-150' id=""><a href="#">Home</a></li>
+                        <li className='text-gray-400 hover:text-white duration-150'><a href="#about">About</a></li>
+                                <li className='text-gray-400 hover:text-white duration-150' ><a href="#why">Why Participate</a></li>
+                                <li className='text-gray-400 hover:text-white duration-150' ><a href="#theme">Theme</a></li>    
+                                <li className='text-gray-400 hover:text-white duration-150' ><a href="#form">Register</a></li>    
                         </ul>
                     </div>
                     
                 </div>
             </div>
             <div className='flex items-center gap-x-4'>
-                <a href = "#contact">
+                <a href = "#form">
                    <button className='text-gray-400 hover:text-white duration-150 lg:block md:block hidden sm:hidden border-t-[1px] border-white/30 px-4 py-1 bg-[#0b112a] rounded-full'>Register</button> 
                 </a>
                 
@@ -57,11 +58,11 @@ const NavBar = () => {
                 isClicked && 
                 <div className='bg-white/5 backdrop-blur-md py-5 absolute w-60 right-0 border-2 border-gray-600'>
                             <ul className='flex flex-col gap-y-7 justify-around items-center'>
-                                <li className='text-gray-400 hover:text-white duration-150'>Home</li>
-                                <li className='text-gray-400 hover:text-white duration-150'>About</li>
-                                <li className='text-gray-400 hover:text-white duration-150'>Contact</li>
-                                <li className='text-gray-400 hover:text-white duration-150'>Theme</li>    
-                                <li className='text-gray-400 hover:text-white duration-150'>Register</li>    
+                                <li className='text-gray-400 hover:text-white duration-150' id=""><a href="#">Home</a></li>
+                                <li className='text-gray-400 hover:text-white duration-150'><a href="#about">About</a></li>
+                                <li className='text-gray-400 hover:text-white duration-150' ><a href="#why">Why Participate</a></li>
+                                <li className='text-gray-400 hover:text-white duration-150' ><a href="#theme">Theme</a></li>    
+                                <li className='text-gray-400 hover:text-white duration-150' ><a href="#form">Register</a></li>    
                             </ul>
                         </div>
             }

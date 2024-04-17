@@ -3,7 +3,7 @@ import "./about.css";
 
 const GlowingCard = () => {
   return (
-    <section id="about" className="my-5 py-5 overflow-hidden">
+    <section  className="my-5 py-5 overflow-hidden">
       <div className="flex flex-col items-center ">
         <h2 className=" lg:text-6xl md:text-6xl font-serif sm:text-6xl text-5xl font-bold bg-gradient-to-r from-blue-600 via-[#ca0019] to-indigo-400 text-transparent bg-clip-text text-center py-3 uppercase">
           About Our Event
@@ -16,7 +16,7 @@ const GlowingCard = () => {
         </p>
       </div>
 
-      <div className="flex flex-col lg:flex-row items-center justify-center mx-auto my-10 gap-x-7 gap-y-7 lg:gap-y-0 py-10 ">
+      <div id="about" className="flex flex-col lg:flex-row items-center justify-center mx-auto my-10 gap-x-7 gap-y-7 lg:gap-y-0 py-10 ">
         <div className="container w-[20rem] h-[22rem] sm:w-[35rem] sm:h-[28rem]"
       data-aos="fade-right"
       data-aos-delay="300"

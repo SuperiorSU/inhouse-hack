@@ -5,7 +5,7 @@ import create from "../assets/create.png";
 
 const WhyPart = () => {
   return (
-    <div className="relative bg-gradient-to-b from-[#04081a] via-[#231451] to-[#04081a] p-7 overflow-hidden">
+    <div id="why" className="relative bg-gradient-to-b from-[#04081a] via-[#231451] to-[#04081a] p-7 overflow-hidden">
       <h2 className="lg:text-6xl md:text-6xl font-serif sm:text-6xl text-4xl font-bold bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 text-transparent bg-clip-text text-center py-3 uppercase">
         Why Participate
       </h2>
@@ -23,7 +23,7 @@ const WhyPart = () => {
           Engage your mind and unlock your creativity. Through participation, you'll be challenged to think critically, solve problems, and explore new possibilities. Sharpen your intellect and expand your horizons.
           </p>
         </div>
-        <div className="w-80 rounded-md border-2 border-[#564f92] p-3 bg-[#070a22]">
+        <div className="w-80 rounded-md border-2 border-[#564f92] p-3 bg-[#070a22] h-[202px]">
           <h3 className="text-2xl text-white pb-2">Create</h3>
           <p className="text-gray-500 text-[15px]">
           Bring your ideas to life and make a tangible impact. Whether you're crafting code, designing visuals, or engineering solutions, participation empowers you to unleash your creativity and build something remarkable.
