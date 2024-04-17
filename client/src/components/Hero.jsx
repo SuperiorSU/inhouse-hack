@@ -27,7 +27,7 @@ const Hero = () => {
       repeat={Infinity}
     />
             {/* <h1 >Craft. Code. Conquer.</h1> */}
-            <p className='text-gray-400 py-1' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium dolor aperiam cupiditate.</p>
+            <p className='text-gray-400 py-1 flex flex-wrap w-[95%] md:w-[60%] mx-auto' >This is your opportunity to demonstrate your skills, tackle real-world issues, and innovate within a limited time frame. It's not just about competition; it's about learning, experimenting, and making a difference.</p>
             <br/><br/><br/>
             <div className='lg:w-[80%] md:w-[70%] sm:w-[80%] w-[80%] mx-auto'>
                 <img src={hero} className='rounded-md object-cover shadow-gray-500 shadow-md' alt="" data-aos="fade-up"

@@ -10,7 +10,7 @@ const NavBar = () => {
         setIsClicked(!isClicked);
     }
   return (
-    <div>
+    <div className='scroll-smooth'>
         <nav className='flex justify-between py-5 items-center ps-7 pe-7'>
             <div>
                 <div className='flex gap-x-9 justify-around items-center'>
@@ -23,7 +23,7 @@ const NavBar = () => {
                         <ul className='hidden gap-x-7 justify-around items-center lg:flex md:flex sm:hidden'>
                             <li className='text-gray-400 hover:text-white duration-150'><a href="#">Home</a></li>
                             <li className='text-gray-400 hover:text-white duration-150'><a href="#about">About</a></li>
-                            <li className='text-gray-400 hover:text-white duration-150'>Contact</li>
+                            <li className='text-gray-400 hover:text-white duration-150'><a href="#contact">Contact</a></li>
                             <li className='text-gray-400 hover:text-white duration-150'>Theme</li>    
                         </ul>
                     </div>
@@ -45,7 +45,7 @@ const NavBar = () => {
         <div className='flex gap-x-1 justify-center items-center' >
             
             <div className='bg-[#0d132e] p-1 border-[.5px] border-gray-800 rounded-lg lg:block md:block hidden sm:hidden '>
-                <p className='text-gray-400 text-center'><span className='text-white text-sm font-medium'>Announcing our new event </span>- The in-House Hackathon for The Uniques 2.0 & The Uniques 3.0 </p>
+                <p className='text-gray-400 text-center'><span className='text-white text-sm font-medium'>Announcing our new event </span>- The in-House Hackathon for The Uniques 2.0, The Uniques 3.0 & Super 60</p>
             </div>
             <div className='bg-blue-500 rounded-full w-[30px] h-[30px] lg:block md:block hidden sm:hidden'>
                 <FaArrowCircleRight size={15} className='m-auto inline-block text-white ms-2'/>
