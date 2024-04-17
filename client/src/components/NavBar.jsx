@@ -31,7 +31,7 @@ const NavBar = () => {
                 </div>
             </div>
             <div className='flex items-center gap-x-4'>
-                <a href = "#form">
+                <a href = "#contact">
                    <button className='text-gray-400 hover:text-white duration-150 lg:block md:block hidden sm:hidden border-t-[1px] border-white/30 px-4 py-1 bg-[#0b112a] rounded-full'>Register</button> 
                 </a>
                 
@@ -45,10 +45,10 @@ const NavBar = () => {
         <div className='flex gap-x-1 justify-center items-center' >
             
             <div className='bg-[#0d132e] p-1 border-[.5px] border-gray-800 rounded-lg lg:block md:block hidden sm:hidden '>
-                <p className='text-gray-400 text-center'><span className='text-white text-sm font-medium'>Announcing our new event </span>- The in-House Hackathon for The Uniques 2.0, The Uniques 3.0 & Super 60</p>
+                <a href='#about'><p className='text-gray-400 text-center'><span className='text-white text-sm font-medium'>Announcing our new event </span>- The in-House Hackathon for The Uniques 2.0, The Uniques 3.0 & Super 60</p></a>
             </div>
             <div className='bg-blue-500 rounded-full w-[30px] h-[30px] lg:block md:block hidden sm:hidden'>
-                <FaArrowCircleRight size={15} className='m-auto inline-block text-white ms-2'/>
+                <a href="#about"><FaArrowCircleRight size={15} className='m-auto inline-block text-white ms-2'/></a>
             </div>
             
         </div>
