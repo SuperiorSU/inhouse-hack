@@ -24,32 +24,31 @@ const Footer = () => {
             </div>
           </div>
           <div className="col-span-12 lg:col-span-1 md:col-span-2 sm:col-san-2">
-            <h3 className="text-white text-[17px] font-medium pt-1 pb-4">Platform</h3>
+            <h3 className="text-white text-[17px] font-medium pt-1 pb-4">Contact</h3>
             <ul className="text-gray-400 gap-y-2 leading-9 ">
-              <li className="hover:text-white duration-150">Overview</li>
-              <li className="hover:text-white duration-150">Rules & Regulation</li>
-              <li className="hover:text-white duration-150">Updates</li>
-              <li className="hover:text-white duration-150">Theme</li>
+              <li className="hover:text-white duration-150"><a href="https://www.linkedin.com/in/vaishnavi-bajpai-908726260/" target="_blank">Co-Ordinator</a></li>
+              <li className="hover:text-white duration-150"><a  href="#about">Rules & regulation</a></li>
+              <li className="hover:text-white duration-150"><a href="https://www.instagram.com/theuniquesofficial/">Updates</a></li>
+              <li className="hover:text-white duration-150"><a href="#theme">Theme</a></li>
             </ul>
 
           </div>
           <div className="col-span-12 lg:col-span-1 md:col-span-2 sm:col-san-2">
             <h3 className="text-white text-[17px] font-medium pt-1 pb-4">Developers</h3>
             <ul className="text-gray-400 gap-y-2 leading-9">
-              <li className="hover:text-white duration-150">Kumar Sujal</li>
-              <li className="hover:text-white duration-150">Aryan Kamboj</li>
-              <li className="hover:text-white duration-150">Mukul Tiwari</li>
-              
+              <li className="hover:text-white duration-150"><a href="https://www.linkedin.com/in/kumar-sujal-b801a6275/" target="_blank">Kumar Sujal</a></li>
+              <li className="hover:text-white duration-150"><a href="https://www.linkedin.com/in/mukul-tiwari-4b07b829a/" target="_blank">Mukul Tiwari</a></li>
+              <li className="hover:text-white duration-150"><a href="https://www.linkedin.com/in/aryan-kammboz-110521252/" target="_blank">Aryan Kamboj</a></li>
             </ul>
 
           </div>
           <div className="col-span-12 lg:col-span-1 md:col-span-2 sm:col-san-2">
-            <h3 className="text-white text-[17px] font-medium pt-1 pb-4">Social Media</h3>
+            <h3 className="text-white text-[17px] font-medium pt-1 pb-4" target="_blank">Social Media & Websites</h3>
             <ul className="text-gray-400 gap-y-2 leading-9">
-              <li className="hover:text-white duration-150">Linkedin</li>
-              <li className="hover:text-white duration-150">Instagram</li>
-              <li className="hover:text-white duration-150">Facebook</li>
-              <li className="hover:text-white duration-150">X-Twitter</li>
+              <li className="hover:text-white duration-150"><a href="https://www.linkedin.com/company/theuniquesofflicial/mycompany/" target="_blank">Linkedin</a></li>
+              <li className="hover:text-white duration-150"><a href="https://www.instagram.com/theuniquesofficial/" target="_blank" >Instagram</a></li>
+              <li className="hover:text-white duration-150"><a href="https://gdscsviet.netlify.app/" target="_blank">GDSC SVIET</a></li>
+              <li className="hover:text-white duration-150"><a href="https://www.theuniques.in/" target="_blank">The Uniques Community</a></li>
             </ul>
 
           </div>

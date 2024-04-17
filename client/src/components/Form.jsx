@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import axios from "axios";
+import React, { useEffect, useState } from "react";
 
 const numberofmembers = (members , changeHandler) => {
   let arr = [];
@@ -17,7 +18,7 @@ const numberofmembers = (members , changeHandler) => {
   return arr;
 };
 
-const Form = () => {
+function Form() {
   const [form, setForm] = useState({
     name: "",
     admission: "",
@@ -25,18 +26,42 @@ const Form = () => {
     email: "",
     teamlead: "",
     members: "2",
-    members1: "",
-    members2: "",
-    members3: "",
+    member1: "",
+    member2: "",
+    member3: "",
   });
   const changeHandler = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
+
   };
-  console.log(form);
+  const submitFunction=  async () => {
+    console.log(form)
+    await axios.post("http://127.0.0.1:4000/api//addUser",form).then((res) => {
+      console.log(res);
+    })
+    .catch((err) => {
+      console.log(err);
+    });
+  };
+
+  // useEffect(()=>{
+  //   submitFunction()
+  // }, [form]);
+  // console.log(form);
+  
+    
   const members = numberofmembers(parseInt(form.members) - 1 , changeHandler);
   return (
+<<<<<<< HEAD:src/components/Form.jsx
     <div className="flex z-20 justify-center items-center mb-10">
       <div className=" bg-white/5 backdrop-blur-md py-5 h-[max-content] w-[60%] rounded-md right-0 px-5 border-2 border-gray-600">
+=======
+    <div id="form" className="flex justify-center flex-wrap items-center mb-10 py-10 gap-5 bg-gradient-to-b from-[#04081add] to-[#04081a] px-3">
+      <div className="">
+        <h2 className="lg:text-6xl md:text-6xl font-serif sm:text-6xl text-4xl font-bold text-gray-400 p-3">Still Not<br/>Registered?</h2>
+      </div>
+      <div className=" bg-white/5 backdrop-blur-md my-5 py-5 sm:py-0 sm:my-0 h-[max-content] w-[100%] sm:w-[50%] rounded-md right-0 px-5 border-2 border-gray-600">
+>>>>>>> 3e0a17bd147837cccab04fd8f411728b430d3bfd:client/src/components/Form.jsx
         <form>
           <input
             type="text"
@@ -56,18 +81,21 @@ const Form = () => {
           />
           <select
             name="batch"
-            className="block w-full text-white p-2 mb-4 bg-gray-500/5 rounded-md border-b-2 border-gray-600 focus:outline-none focus:border-blue-500"
+            className="block w-full text-white p-2 mb-4 bg-gray-500/5 rounded-sm border-b-2 border-gray-600 focus:outline-none focus:border-blue-500"
             onChange={changeHandler}
             required
           >
-            <option className=" bg-black/85" value="">
+            <option className=" bg-black/85 py-3" value="">
               Select Batch*
             </option>
-            <option className=" bg-black/85" value="uniques 2.0">
+            <option className=" bg-black/85 py-3" value="uniques 2.0">
               uniques 2.0
             </option>
-            <option className="bg-black/85" value="uniques 3.0">
+            <option className="bg-black/85 py-3" value="uniques 3.0">
               uniques 3.0
+            </option>
+            <option className="bg-black/85 py-3" value="uniques 3.0">
+              Super60
             </option>
           </select>
           <input
@@ -114,7 +142,7 @@ const Form = () => {
             form.email &&
             form.teamlead &&
             form.members && (
-              <button className="block w-full text-white p-2 mb-4 bg-[#0b112a] hover:bg-blue-500 rounded-md focus:outline-none">
+              <button onClick={submitFunction} className="block w-full text-white p-2 mb-4 bg-[#0b112a] hover:bg-blue-500 rounded-md focus:outline-none">
                 Register
               </button>
             )}
@@ -123,5 +151,4 @@ const Form = () => {
     </div>
   );
 };
-
 export default Form;
